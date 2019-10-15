@@ -1,0 +1,6 @@
+.articleList{
+    padding: 20px;
+    background-color: grey;
+    list-style-type: none;
+    position: relative;
+}
