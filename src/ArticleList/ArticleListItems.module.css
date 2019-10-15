@@ -1,0 +1,31 @@
+.ArticleListItems{
+    background-color: white;
+    border: 3px solid darkred;
+    padding: 20px;
+    margin: 30px 25px 25px 25px;
+    position: relative;
+    height: 200px;
+}
+
+.ArticleHeader{
+    color: red;
+    font-size: 20px;
+    font-style: initial;
+}
+
+.ArticleContent{
+    position: relative;
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.ArticleFooter{
+    position: relative;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+

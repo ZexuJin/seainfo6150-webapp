@@ -1,0 +1,18 @@
+.SluggButtonStyles{
+    background-color: indianred;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    float: right;
+    text-align: right;
+    positon: absolute;
+    padding: 8px 15px;
+    font-size: 18px;
+    color: white;
+}
+
+.SluggButtonStyles:hover{
+    text-align: right;
+    background-color: grey;
+    color: white;
+}
