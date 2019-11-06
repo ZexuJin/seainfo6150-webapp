@@ -1,0 +1,26 @@
+.articleList{
+    padding: 20px;
+    background-color: grey;
+    list-style-type: none;
+    display: inline-grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+@media (min-width: 400px) {
+    .articleList {
+        display: inline-grid;
+        grid-template-columns: auto;
+    }
+}
+@media (min-width: 700px) {
+    .articleList  {
+        display: inline-grid;
+        grid-template-columns: 50% 50%;
+    }
+}
+@media (min-width: 1400px) {
+    .articleList  {
+        display: inline-grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+}

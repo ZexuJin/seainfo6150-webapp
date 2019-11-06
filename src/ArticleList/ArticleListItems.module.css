@@ -1,0 +1,101 @@
+.ArticleListItems{
+    background-image: linear-gradient(90deg, indianred, white 15%);
+    border-radius: 10px;
+    border: 5px solid darkred;
+    padding: 10px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    height: 380px;
+}
+
+@media (min-width: 400px) {
+    .ArticleListItems {
+        height: 450px;
+    }
+}
+@media (min-width: 700px) {
+    .ArticleListItems  {
+        height: 420px;
+    }
+}
+@media (min-width: 1400px) {
+    .ArticleListItems {
+        height: 380px;
+    }
+}
+
+.ArticleHeader{
+    color: #fa1108;
+    position: relative;
+    margin-left: 5px;
+    font-size: 14px;
+    font-style: initial;
+}
+
+@media (min-width: 400px) {
+    .ArticleHeader {
+        font-size: 18px;
+    }
+}
+@media (min-width: 700px) {
+    .ArticleHeader  {
+        font-size: 16px;
+    }
+}
+@media (min-width: 1400px) {
+    .ArticleHeader {
+        font-size: 14px;
+    }
+}
+
+
+.ArticleContent{
+    position: relative;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 15px;
+    font-style: normal;
+}
+
+@media (min-width: 400px) {
+    .ArticleContent {
+        font-size: 20px;
+    }
+}
+@media (min-width: 700px) {
+    .ArticleContent  {
+        font-size: 17px;
+    }
+}
+@media (min-width: 1400px) {
+    .ArticleContent {
+        font-size: 15px;
+    }
+}
+
+.ArticleFooter{
+    text-align: left;
+    margin-left: 5px;
+    position: relative;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+@media (min-width: 400px) {
+    .ArticleFooter {
+        font-size: 20px;
+    }
+}
+@media (min-width: 700px) {
+    .ArticleFooter  {
+        font-size: 17px;
+    }
+}
+@media (min-width: 1400px) {
+    .ArticleFooter {
+        font-size: 15px;
+    }
+}
+
+

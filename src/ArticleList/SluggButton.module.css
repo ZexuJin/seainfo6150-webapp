@@ -1,0 +1,39 @@
+.SluggButtonStyles{
+    background-color: #cd433a;
+    color: white;
+    margin-right: 5px;
+    border: none;
+    border-radius: 8px;
+    positon: absolute;
+    padding: 8px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.SluggButtonStyles:hover{
+    background-color: grey;
+    color: white;
+}
+
+@media (min-width: 400px) {
+    .SluggButtonStyles {
+        font-size: 18px;
+        border-radius: 12px;
+        padding: 12px 18px;
+    }
+}
+
+@media (min-width: 700px) {
+    .SluggButtonStyles  {
+        font-size: 16px;
+        border-radius: 10px;
+        padding: 10px 15px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .SluggButtonStyles {
+        font-size: 15px;
+    }
+}
